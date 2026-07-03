@@ -87,7 +87,7 @@ Rules:
 	ra|rules/aircraft.yaml
 	ra|rules/ships.yaml
 	ra|rules/fakes.yaml
-	monkz|rules.yaml
+	monkz|rules/world.yaml
 
 Sequences:
 	ra|sequences/ships.yaml
@@ -109,6 +109,7 @@ Cursors:
 
 Chrome:
 	ra|chrome.yaml
+	monkz|chrome.yaml
 
 Assemblies: OpenRA.Mods.Common.dll, OpenRA.Mods.Cnc.dll
 
@@ -186,7 +187,6 @@ Weapons:
 	ra|weapons/other.yaml
 	ra|weapons/smallcaliber.yaml
 	ra|weapons/superweapons.yaml
-	monkz|weapons.yaml
 
 Voices:
 	ra|audio/voices.yaml
