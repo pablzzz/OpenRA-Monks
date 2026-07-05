@@ -75,7 +75,7 @@ command-button-allies-highlighted-disabled:
 sidebar-monkz:
 	Inherits: ^Sidebar
 	Regions:
-		radar: 290, 67, 222, 222
+		radar: 286, 67, 227, 222
 		background-top: 0, 185, 238, 262
 		background-moneybin: 0, 85, 238, 28
 		background-iconbg: 12, 227, 190, 47
@@ -85,43 +85,43 @@ sidebar-monkz:
 
 sidebar-button-monkz:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 281, 5, 5, 18, 18, 5, 5
+	PanelRegion: 258, 281, 5, 5, 18, 18, 5, 5
 sidebar-button-monkz-hover:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 252, 5, 5, 18, 18, 5, 5
+	PanelRegion: 258, 252, 5, 5, 18, 18, 5, 5
 sidebar-button-monkz-pressed:
 	Inherits: sidebar-button-monkz
 sidebar-button-monkz-highlighted:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 339, 5, 5, 18, 18, 5, 5
+	PanelRegion: 258, 339, 5, 5, 18, 18, 5, 5
 sidebar-button-monkz-highlighted-hover:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 310, 5, 5, 18, 18, 5, 5
+	PanelRegion: 258, 310, 5, 5, 18, 18, 5, 5
 sidebar-button-monkz-highlighted-pressed:
 	Inherits: sidebar-button-monkz-highlighted
 sidebar-button-monkz-disabled:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 484, 5, 5, 18, 18, 5, 5
+	PanelRegion: 258, 484, 5, 5, 18, 18, 5, 5
 sidebar-button-monkz-highlighted-disabled:
 	Inherits: sidebar-button-monkz-disabled
 
 command-button-monkz:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 281, 3, 3, 22, 22, 3, 3
+	PanelRegion: 258, 281, 3, 3, 22, 22, 3, 3
 	PanelSides: Center
 command-button-monkz-hover:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 252, 3, 3, 22, 22, 3, 3
+	PanelRegion: 258, 252, 3, 3, 22, 22, 3, 3
 	PanelSides: Center
 command-button-monkz-pressed:
 	Inherits: command-button-monkz
 command-button-monkz-highlighted:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 339, 3, 3, 22, 22, 3, 3
+	PanelRegion: 258, 339, 3, 3, 22, 22, 3, 3
 	PanelSides: Center
 command-button-monkz-highlighted-hover:
 	Inherits: ^Sidebar
-	PanelRegion: 260, 310, 3, 3, 22, 22, 3, 3
+	PanelRegion: 258, 310, 3, 3, 22, 22, 3, 3
 	PanelSides: Center
 command-button-monkz-highlighted-pressed:
 	Inherits: command-button-monkz-highlighted

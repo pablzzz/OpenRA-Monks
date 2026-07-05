@@ -17,6 +17,7 @@ FileSystem: ContentInstallerFileSystem
 		common|scripts
 		ra|scripts
 		ra|uibits
+		monkz|uibits
 	ContentPackages:
 		content|allies.mix
 		content|conquer.mix
@@ -210,8 +211,11 @@ Hotkeys:
 
 LoadScreen: LogoStripeLoadScreen
 	Image: ra|uibits/loadscreen.png
+	Image: monkz|uibits/loadscreen.png
 	Image2x: ra|uibits/loadscreen-2x.png
+	Image2x: monkz|uibits/loadscreen-2x.png
 	Image3x: ra|uibits/loadscreen-3x.png
+	Image3x: monkz|uibits/loadscreen-3x.png
 
 ServerTraits:
 	LobbyCommands
@@ -226,35 +230,35 @@ ChromeMetrics:
 
 Fonts:
 	Tiny:
-		Font: common|FreeSans.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 10
 		Ascender: 8
 	TinyBold:
-		Font: common|FreeSansBold.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 10
 		Ascender: 8
 	Small:
-		Font: common|FreeSans.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 12
 		Ascender: 9
 	Regular:
-		Font: common|FreeSans.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 14
 		Ascender: 11
 	Bold:
-		Font: common|FreeSansBold.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 14
 		Ascender: 11
 	MediumBold:
-		Font: common|FreeSansBold.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 18
 		Ascender: 14
 	BigBold:
-		Font: common|FreeSansBold.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 24
 		Ascender: 18
 	Title:
-		Font: ra|ZoodRangmah.ttf
+		Font: monkz|monkz_font.ttf
 		Size: 48
 		Ascender: 26
 
