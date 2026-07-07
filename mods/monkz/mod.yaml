@@ -119,13 +119,13 @@ ChromeLayout:
 	common|chrome/ingame-chat.yaml
 	common|chrome/ingame-transients.yaml
 	common|chrome/ingame-fmvplayer.yaml
-	common|chrome/ingame-info.yaml
+	monkz|chrome/ingame-info.yaml
 	common|chrome/ingame-infoscripterror.yaml
-	common|chrome/ingame-infobriefing.yaml
-	common|chrome/ingame-infoobjectives.yaml
-	common|chrome/ingame-infostats.yaml
-	common|chrome/ingame-info-lobby-options.yaml
-	common|chrome/ingame-menu.yaml
+	monkz|chrome/ingame-infobriefing.yaml
+	monkz|chrome/ingame-infoobjectives.yaml
+	monkz|chrome/ingame-infostats.yaml
+	monkz|chrome/ingame-info-lobby-options.yaml
+	monkz|chrome/ingame-menu.yaml
 	ra|chrome/ingame-observer.yaml
 	ra|chrome/ingame-player.yaml
 	common|chrome/ingame-perf.yaml
@@ -133,29 +133,28 @@ ChromeLayout:
 	common|chrome/ingame-debug-hpf.yaml
 	common|chrome/ingame-debuginfo.yaml
 	common|chrome/ingame-infochat.yaml
-	common|chrome/mainmenu.yaml
 	common|chrome/mainmenu-prompts.yaml
-	common|chrome/settings.yaml
+	monkz|chrome/settings.yaml
 	common|chrome/settings-display.yaml
 	common|chrome/settings-audio.yaml
 	common|chrome/settings-input.yaml
-	common|chrome/settings-hotkeys.yaml
+	monkz|chrome/settings-hotkeys.yaml
 	common|chrome/settings-advanced.yaml
 	common|chrome/credits.yaml
-	common|chrome/lobby.yaml
-	common|chrome/lobby-mappreview.yaml
-	common|chrome/lobby-players.yaml
-	common|chrome/lobby-options.yaml
-	common|chrome/lobby-music.yaml
-	common|chrome/lobby-servers.yaml
+	monkz|chrome/lobby.yaml
+	monkz|chrome/lobby-mappreview.yaml
+	monkz|chrome/lobby-players.yaml
+	monkz|chrome/lobby-options.yaml
+	monkz|chrome/lobby-music.yaml
+	monkz|chrome/lobby-servers.yaml
 	common|chrome/lobby-kickdialogs.yaml
 	common|chrome/color-picker.yaml
-	common|chrome/map-chooser.yaml
-	common|chrome/multiplayer-browser.yaml
+	monkz|chrome/map-chooser.yaml
+	monkz|chrome/multiplayer-browser.yaml
 	common|chrome/multiplayer-browserpanels.yaml
-	common|chrome/multiplayer-createserver.yaml
-	common|chrome/multiplayer-directconnect.yaml
-	common|chrome/connection.yaml
+	monkz|chrome/multiplayer-createserver.yaml
+	monkz|chrome/multiplayer-directconnect.yaml
+	monkz|chrome/connection.yaml
 	common|chrome/replaybrowser.yaml
 	common|chrome/gamesave-browser.yaml
 	ra|chrome/gamesave-loading.yaml
@@ -164,10 +163,11 @@ ChromeLayout:
 	common|chrome/tooltips.yaml
 	common|chrome/assetbrowser.yaml
 	common|chrome/missionbrowser.yaml
-	common|chrome/confirmation-dialogs.yaml
+	monkz|chrome/confirmation-dialogs.yaml
 	common|chrome/editor.yaml
 	common|chrome/playerprofile.yaml
 	common|chrome/text-notifications.yaml
+	monkz|chrome/mainmenu.yaml
 
 FluentMessages:
 	common|fluent/common.ftl

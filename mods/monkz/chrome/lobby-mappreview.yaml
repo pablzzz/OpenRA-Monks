@@ -1,0 +1,228 @@
+Container@MAP_PREVIEW:
+	Logic: MapPreviewLogic
+	Width: PARENT_WIDTH
+	Height: PARENT_HEIGHT
+	Children:
+		Container@MAP_LARGE:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Background@MAP_BG:
+					Width: PARENT_WIDTH
+					Height: 174
+					Background: dialog3
+					Children:
+						MapPreview@MAP_PREVIEW:
+							X: 1
+							Y: 1
+							Width: PARENT_WIDTH - 2
+							Height: PARENT_HEIGHT - 2
+							TooltipContainer: TOOLTIP_CONTAINER
+				LabelWithTooltip@MAP_TITLE:
+					TextColor: 000000
+					Y: 173
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Bold
+					Align: Center
+					TooltipContainer: TOOLTIP_CONTAINER
+					TooltipTemplate: SIMPLE_TOOLTIP
+		Container@MAP_SMALL:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Background@MAP_BG:
+					Width: PARENT_WIDTH
+					Height: 142
+					Background: dialog3
+					Children:
+						MapPreview@MAP_PREVIEW:
+							X: 1
+							Y: 1
+							Width: PARENT_WIDTH - 2
+							Height: PARENT_HEIGHT - 2
+							TooltipContainer: TOOLTIP_CONTAINER
+				LabelWithTooltip@MAP_TITLE:
+					TextColor: 000000
+					Y: 143
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Bold
+					Align: Center
+					TooltipContainer: TOOLTIP_CONTAINER
+					TooltipTemplate: SIMPLE_TOOLTIP
+		Container@MAP_AVAILABLE:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Label@MAP_TYPE:
+					TextColor: 000000
+					Y: 188
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: TinyBold
+					Align: Center
+					IgnoreMouseOver: true
+				Label@MAP_AUTHOR:
+					TextColor: 000000
+					Y: 201
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+		Container@MAP_INCOMPATIBLE:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Label@MAP_STATUS_A:
+					TextColor: 000000
+					Y: 188
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-incompatible-status-a
+					IgnoreMouseOver: true
+				Label@MAP_STATUS_B:
+					TextColor: 000000
+					Y: 201
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-incompatible-status-b
+		Container@MAP_VALIDATING:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Label@MAP_STATUS_VALIDATING:
+					TextColor: 000000
+					Y: 174
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-validating-status
+					IgnoreMouseOver: true
+				ProgressBar@MAP_VALIDATING_BAR:
+					Y: 194
+					Width: PARENT_WIDTH
+					Height: 25
+					Indeterminate: True
+		Container@MAP_DOWNLOAD_AVAILABLE:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Label@MAP_TYPE:
+					TextColor: 000000
+					Y: 158
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: TinyBold
+					Align: Center
+					IgnoreMouseOver: true
+				Label@MAP_AUTHOR:
+					TextColor: 000000
+					Y: 171
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+				Button@MAP_INSTALL:
+					Y: 194
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Bold
+					Text: button-map-download-available-install
+		Button@MAP_UPDATE:
+			Y: 195
+			Width: PARENT_WIDTH
+			Height: 25
+			Font: Bold
+			Text: button-map-preview-update
+		Container@MAP_UPDATE_DOWNLOAD_AVAILABLE:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Button@MAP_INSTALL:
+					Y: 166
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Bold
+					Text: button-map-update-download-available-install
+		Label@MAP_SEARCHING:
+			TextColor: 000000
+			Y: 158
+			Width: PARENT_WIDTH
+			Height: 25
+			Font: Tiny
+			Align: Center
+			Text: label-map-preview-searching
+			IgnoreMouseOver: true
+		Container@MAP_UNAVAILABLE:
+			Width: PARENT_WIDTH
+			Children:
+				Label@a:
+					TextColor: 000000
+					Y: 158
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-unavailable-a
+				Label@b:
+					TextColor: 000000
+					Y: 171
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-unavailable-b
+		Label@MAP_ERROR:
+			TextColor: FF0000
+			Y: 158
+			Width: PARENT_WIDTH
+			Height: 25
+			Font: Tiny
+			Align: Center
+			Text: label-map-preview-error
+		Container@MAP_DOWNLOADING:
+			Width: PARENT_WIDTH
+			Height: PARENT_HEIGHT
+			Children:
+				Label@MAP_STATUS_DOWNLOADING:
+					TextColor: 000000
+					Y: 158
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+				ProgressBar@MAP_PROGRESSBAR:
+					Y: 194
+					Width: PARENT_WIDTH
+					Height: 25
+					Indeterminate: True
+		Button@MAP_RETRY:
+			Y: 194
+			Width: PARENT_WIDTH
+			Height: 25
+			Font: Bold
+		Container@MAP_UPDATE_AVAILABLE:
+			Width: PARENT_WIDTH
+			Children:
+				Label@a:
+					TextColor: 000000
+					Y: 158
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-update-available-a
+				Label@b:
+					TextColor: 000000
+					Y: 171
+					Width: PARENT_WIDTH
+					Height: 25
+					Font: Tiny
+					Align: Center
+					Text: label-map-update-available-b
