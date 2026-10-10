@@ -1,0 +1,2725 @@
+General:
+	Name: Test
+	Id: DESERT
+	EditorTemplateOrder: Terrain
+	HeightDebugColors: 880000
+
+Terrain:
+	TerrainType@Beach:
+		Type: Beach
+		TargetTypes: Ground
+		Color: B09C78
+
+	TerrainType@Bridge:
+		Type: Bridge
+		TargetTypes: Ground, Bridge
+		AcceptsSmudgeType: Crater, Scorch
+		Color: 606060
+
+	TerrainType@Clear:
+		Type: Clear
+		TargetTypes: Ground
+		AcceptsSmudgeType: Crater, Scorch
+		Color: 865F45
+		RestrictPlayerColor: true
+
+	TerrainType@Gems:
+		Type: Gems
+		TargetTypes: Ground
+		AcceptsSmudgeType: Crater, Scorch
+		Color: 8470FF
+		RestrictPlayerColor: true
+
+	TerrainType@Ore:
+		Type: Ore
+		TargetTypes: Ground
+		AcceptsSmudgeType: Crater, Scorch
+		Color: 948060
+		RestrictPlayerColor: true
+
+	TerrainType@River:
+		Type: River
+		TargetTypes: Ground
+		Color: 6F848B
+
+	TerrainType@Road:
+		Type: Road
+		TargetTypes: Ground
+		AcceptsSmudgeType: Crater, Scorch
+		Color: A87B53
+
+	TerrainType@Rock:
+		Type: Rock
+		TargetTypes: Ground
+		Color: 745A3F
+
+	TerrainType@Rough:
+		Type: Rough
+		TargetTypes: Ground
+		AcceptsSmudgeType: Crater, Scorch
+		Color: 44443C
+
+	TerrainType@Tree:
+		Type: Tree
+		TargetTypes: Ground
+		Color: 1C2024
+
+	TerrainType@Wall:
+		Type: Wall
+		TargetTypes: Ground
+		AcceptsSmudgeType: Crater, Scorch
+		Color: D0C0A0
+
+	TerrainType@Water:
+		Type: Water
+		TargetTypes: Water
+		Color: 5DA5CE
+		RestrictPlayerColor: true
+
+Templates:
+
+	Template@0:
+		Id: 0
+		Images: monkz-tileset.png
+		Frames: 0
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@1:
+		Id: 1
+		Images: monkz-tileset.png
+		Frames: 1
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@2:
+		Id: 2
+		Images: monkz-tileset.png
+		Frames: 2
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@3:
+		Id: 3
+		Images: monkz-tileset.png
+		Frames: 3
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@4:
+		Id: 4
+		Images: monkz-tileset.png
+		Frames: 4
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@5:
+		Id: 5
+		Images: monkz-tileset.png
+		Frames: 5
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@6:
+		Id: 6
+		Images: monkz-tileset.png
+		Frames: 6
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@7:
+		Id: 7
+		Images: monkz-tileset.png
+		Frames: 7
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@8:
+		Id: 8
+		Images: monkz-tileset.png
+		Frames: 8
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@9:
+		Id: 9
+		Images: monkz-tileset.png
+		Frames: 9
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@10:
+		Id: 10
+		Images: monkz-tileset.png
+		Frames: 10
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@11:
+		Id: 11
+		Images: monkz-tileset.png
+		Frames: 11
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@12:
+		Id: 12
+		Images: monkz-tileset.png
+		Frames: 12
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@13:
+		Id: 13
+		Images: monkz-tileset.png
+		Frames: 13
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@14:
+		Id: 14
+		Images: monkz-tileset.png
+		Frames: 14
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@15:
+		Id: 15
+		Images: monkz-tileset.png
+		Frames: 15
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@16:
+		Id: 16
+		Images: monkz-tileset.png
+		Frames: 16
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@17:
+		Id: 17
+		Images: monkz-tileset.png
+		Frames: 17
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@18:
+		Id: 18
+		Images: monkz-tileset.png
+		Frames: 18
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@19:
+		Id: 19
+		Images: monkz-tileset.png
+		Frames: 19
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@20:
+		Id: 20
+		Images: monkz-tileset.png
+		Frames: 20
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@21:
+		Id: 21
+		Images: monkz-tileset.png
+		Frames: 21
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@22:
+		Id: 22
+		Images: monkz-tileset.png
+		Frames: 22
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@23:
+		Id: 23
+		Images: monkz-tileset.png
+		Frames: 23
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@24:
+		Id: 24
+		Images: monkz-tileset.png
+		Frames: 24
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@25:
+		Id: 25
+		Images: monkz-tileset.png
+		Frames: 25
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@26:
+		Id: 26
+		Images: monkz-tileset.png
+		Frames: 26
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@27:
+		Id: 27
+		Images: monkz-tileset.png
+		Frames: 27
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@28:
+		Id: 28
+		Images: monkz-tileset.png
+		Frames: 28
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@29:
+		Id: 29
+		Images: monkz-tileset.png
+		Frames: 29
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@30:
+		Id: 30
+		Images: monkz-tileset.png
+		Frames: 30
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@31:
+		Id: 31
+		Images: monkz-tileset.png
+		Frames: 31
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@32:
+		Id: 32
+		Images: monkz-tileset.png
+		Frames: 32
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@33:
+		Id: 33
+		Images: monkz-tileset.png
+		Frames: 33
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@34:
+		Id: 34
+		Images: monkz-tileset.png
+		Frames: 34
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@35:
+		Id: 35
+		Images: monkz-tileset.png
+		Frames: 35
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@36:
+		Id: 36
+		Images: monkz-tileset.png
+		Frames: 36
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@37:
+		Id: 37
+		Images: monkz-tileset.png
+		Frames: 37
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@38:
+		Id: 38
+		Images: monkz-tileset.png
+		Frames: 38
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@39:
+		Id: 39
+		Images: monkz-tileset.png
+		Frames: 39
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@40:
+		Id: 40
+		Images: monkz-tileset.png
+		Frames: 40
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@41:
+		Id: 41
+		Images: monkz-tileset.png
+		Frames: 41
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@42:
+		Id: 42
+		Images: monkz-tileset.png
+		Frames: 42
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@43:
+		Id: 43
+		Images: monkz-tileset.png
+		Frames: 43
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@44:
+		Id: 44
+		Images: monkz-tileset.png
+		Frames: 44
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@45:
+		Id: 45
+		Images: monkz-tileset.png
+		Frames: 45
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@46:
+		Id: 46
+		Images: monkz-tileset.png
+		Frames: 46
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@47:
+		Id: 47
+		Images: monkz-tileset.png
+		Frames: 47
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@48:
+		Id: 48
+		Images: monkz-tileset.png
+		Frames: 48
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@49:
+		Id: 49
+		Images: monkz-tileset.png
+		Frames: 49
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@50:
+		Id: 50
+		Images: monkz-tileset.png
+		Frames: 50
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@51:
+		Id: 51
+		Images: monkz-tileset.png
+		Frames: 51
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@52:
+		Id: 52
+		Images: monkz-tileset.png
+		Frames: 52
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@53:
+		Id: 53
+		Images: monkz-tileset.png
+		Frames: 53
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@54:
+		Id: 54
+		Images: monkz-tileset.png
+		Frames: 54
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@55:
+		Id: 55
+		Images: monkz-tileset.png
+		Frames: 55
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@56:
+		Id: 56
+		Images: monkz-tileset.png
+		Frames: 56
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@57:
+		Id: 57
+		Images: monkz-tileset.png
+		Frames: 57
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@58:
+		Id: 58
+		Images: monkz-tileset.png
+		Frames: 58
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@59:
+		Id: 59
+		Images: monkz-tileset.png
+		Frames: 59
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@60:
+		Id: 60
+		Images: monkz-tileset.png
+		Frames: 60
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@61:
+		Id: 61
+		Images: monkz-tileset.png
+		Frames: 61
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@62:
+		Id: 62
+		Images: monkz-tileset.png
+		Frames: 62
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@63:
+		Id: 63
+		Images: monkz-tileset.png
+		Frames: 63
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@64:
+		Id: 64
+		Images: monkz-tileset.png
+		Frames: 64
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@65:
+		Id: 65
+		Images: monkz-tileset.png
+		Frames: 65
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@66:
+		Id: 66
+		Images: monkz-tileset.png
+		Frames: 66
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@67:
+		Id: 67
+		Images: monkz-tileset.png
+		Frames: 67
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@68:
+		Id: 68
+		Images: monkz-tileset.png
+		Frames: 68
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@69:
+		Id: 69
+		Images: monkz-tileset.png
+		Frames: 69
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@70:
+		Id: 70
+		Images: monkz-tileset.png
+		Frames: 70
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@71:
+		Id: 71
+		Images: monkz-tileset.png
+		Frames: 71
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@72:
+		Id: 72
+		Images: monkz-tileset.png
+		Frames: 72
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@73:
+		Id: 73
+		Images: monkz-tileset.png
+		Frames: 73
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@74:
+		Id: 74
+		Images: monkz-tileset.png
+		Frames: 74
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@75:
+		Id: 75
+		Images: monkz-tileset.png
+		Frames: 75
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@76:
+		Id: 76
+		Images: monkz-tileset.png
+		Frames: 76
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@77:
+		Id: 77
+		Images: monkz-tileset.png
+		Frames: 77
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@78:
+		Id: 78
+		Images: monkz-tileset.png
+		Frames: 78
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@79:
+		Id: 79
+		Images: monkz-tileset.png
+		Frames: 79
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@80:
+		Id: 80
+		Images: monkz-tileset.png
+		Frames: 80
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@81:
+		Id: 81
+		Images: monkz-tileset.png
+		Frames: 81
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@82:
+		Id: 82
+		Images: monkz-tileset.png
+		Frames: 82
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@83:
+		Id: 83
+		Images: monkz-tileset.png
+		Frames: 83
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@84:
+		Id: 84
+		Images: monkz-tileset.png
+		Frames: 84
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@85:
+		Id: 85
+		Images: monkz-tileset.png
+		Frames: 85
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@86:
+		Id: 86
+		Images: monkz-tileset.png
+		Frames: 86
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@87:
+		Id: 87
+		Images: monkz-tileset.png
+		Frames: 87
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@88:
+		Id: 88
+		Images: monkz-tileset.png
+		Frames: 88
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@89:
+		Id: 89
+		Images: monkz-tileset.png
+		Frames: 89
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@90:
+		Id: 90
+		Images: monkz-tileset.png
+		Frames: 90
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@91:
+		Id: 91
+		Images: monkz-tileset.png
+		Frames: 91
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@92:
+		Id: 92
+		Images: monkz-tileset.png
+		Frames: 92
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@93:
+		Id: 93
+		Images: monkz-tileset.png
+		Frames: 93
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@94:
+		Id: 94
+		Images: monkz-tileset.png
+		Frames: 94
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@95:
+		Id: 95
+		Images: monkz-tileset.png
+		Frames: 95
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@96:
+		Id: 96
+		Images: monkz-tileset.png
+		Frames: 96
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@97:
+		Id: 97
+		Images: monkz-tileset.png
+		Frames: 97
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@98:
+		Id: 98
+		Images: monkz-tileset.png
+		Frames: 98
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@99:
+		Id: 99
+		Images: monkz-tileset.png
+		Frames: 99
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@100:
+		Id: 100
+		Images: monkz-tileset.png
+		Frames: 100
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@101:
+		Id: 101
+		Images: monkz-tileset.png
+		Frames: 101
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@102:
+		Id: 102
+		Images: monkz-tileset.png
+		Frames: 102
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@103:
+		Id: 103
+		Images: monkz-tileset.png
+		Frames: 103
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@104:
+		Id: 104
+		Images: monkz-tileset.png
+		Frames: 104
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@105:
+		Id: 105
+		Images: monkz-tileset.png
+		Frames: 105
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@106:
+		Id: 106
+		Images: monkz-tileset.png
+		Frames: 106
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@107:
+		Id: 107
+		Images: monkz-tileset.png
+		Frames: 107
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@108:
+		Id: 108
+		Images: monkz-tileset.png
+		Frames: 108
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@109:
+		Id: 109
+		Images: monkz-tileset.png
+		Frames: 109
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@110:
+		Id: 110
+		Images: monkz-tileset.png
+		Frames: 110
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@111:
+		Id: 111
+		Images: monkz-tileset.png
+		Frames: 111
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@112:
+		Id: 112
+		Images: monkz-tileset.png
+		Frames: 112
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@113:
+		Id: 113
+		Images: monkz-tileset.png
+		Frames: 113
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@114:
+		Id: 114
+		Images: monkz-tileset.png
+		Frames: 114
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@115:
+		Id: 115
+		Images: monkz-tileset.png
+		Frames: 115
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@116:
+		Id: 116
+		Images: monkz-tileset.png
+		Frames: 116
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@117:
+		Id: 117
+		Images: monkz-tileset.png
+		Frames: 117
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@118:
+		Id: 118
+		Images: monkz-tileset.png
+		Frames: 118
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@119:
+		Id: 119
+		Images: monkz-tileset.png
+		Frames: 119
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@120:
+		Id: 120
+		Images: monkz-tileset.png
+		Frames: 120
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@121:
+		Id: 121
+		Images: monkz-tileset.png
+		Frames: 121
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@122:
+		Id: 122
+		Images: monkz-tileset.png
+		Frames: 122
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@123:
+		Id: 123
+		Images: monkz-tileset.png
+		Frames: 123
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@124:
+		Id: 124
+		Images: monkz-tileset.png
+		Frames: 124
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@125:
+		Id: 125
+		Images: monkz-tileset.png
+		Frames: 125
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@126:
+		Id: 126
+		Images: monkz-tileset.png
+		Frames: 126
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@127:
+		Id: 127
+		Images: monkz-tileset.png
+		Frames: 127
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@128:
+		Id: 128
+		Images: monkz-tileset.png
+		Frames: 128
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@129:
+		Id: 129
+		Images: monkz-tileset.png
+		Frames: 129
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@130:
+		Id: 130
+		Images: monkz-tileset.png
+		Frames: 130
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@131:
+		Id: 131
+		Images: monkz-tileset.png
+		Frames: 131
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@132:
+		Id: 132
+		Images: monkz-tileset.png
+		Frames: 132
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@133:
+		Id: 133
+		Images: monkz-tileset.png
+		Frames: 133
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@134:
+		Id: 134
+		Images: monkz-tileset.png
+		Frames: 134
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@135:
+		Id: 135
+		Images: monkz-tileset.png
+		Frames: 135
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@136:
+		Id: 136
+		Images: monkz-tileset.png
+		Frames: 136
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@137:
+		Id: 137
+		Images: monkz-tileset.png
+		Frames: 137
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@138:
+		Id: 138
+		Images: monkz-tileset.png
+		Frames: 138
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@139:
+		Id: 139
+		Images: monkz-tileset.png
+		Frames: 139
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@140:
+		Id: 140
+		Images: monkz-tileset.png
+		Frames: 140
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@141:
+		Id: 141
+		Images: monkz-tileset.png
+		Frames: 141
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@142:
+		Id: 142
+		Images: monkz-tileset.png
+		Frames: 142
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@143:
+		Id: 143
+		Images: monkz-tileset.png
+		Frames: 143
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@144:
+		Id: 144
+		Images: monkz-tileset.png
+		Frames: 144
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@145:
+		Id: 145
+		Images: monkz-tileset.png
+		Frames: 145
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@146:
+		Id: 146
+		Images: monkz-tileset.png
+		Frames: 146
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@147:
+		Id: 147
+		Images: monkz-tileset.png
+		Frames: 147
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@148:
+		Id: 148
+		Images: monkz-tileset.png
+		Frames: 148
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@149:
+		Id: 149
+		Images: monkz-tileset.png
+		Frames: 149
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@150:
+		Id: 150
+		Images: monkz-tileset.png
+		Frames: 150
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@151:
+		Id: 151
+		Images: monkz-tileset.png
+		Frames: 151
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@152:
+		Id: 152
+		Images: monkz-tileset.png
+		Frames: 152
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@153:
+		Id: 153
+		Images: monkz-tileset.png
+		Frames: 153
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@154:
+		Id: 154
+		Images: monkz-tileset.png
+		Frames: 154
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@155:
+		Id: 155
+		Images: monkz-tileset.png
+		Frames: 155
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@156:
+		Id: 156
+		Images: monkz-tileset.png
+		Frames: 156
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@157:
+		Id: 157
+		Images: monkz-tileset.png
+		Frames: 157
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@158:
+		Id: 158
+		Images: monkz-tileset.png
+		Frames: 158
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@159:
+		Id: 159
+		Images: monkz-tileset.png
+		Frames: 159
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@160:
+		Id: 160
+		Images: monkz-tileset.png
+		Frames: 160
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@161:
+		Id: 161
+		Images: monkz-tileset.png
+		Frames: 161
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@162:
+		Id: 162
+		Images: monkz-tileset.png
+		Frames: 162
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@163:
+		Id: 163
+		Images: monkz-tileset.png
+		Frames: 163
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@164:
+		Id: 164
+		Images: monkz-tileset.png
+		Frames: 164
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@165:
+		Id: 165
+		Images: monkz-tileset.png
+		Frames: 165
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@166:
+		Id: 166
+		Images: monkz-tileset.png
+		Frames: 166
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@167:
+		Id: 167
+		Images: monkz-tileset.png
+		Frames: 167
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@168:
+		Id: 168
+		Images: monkz-tileset.png
+		Frames: 168
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@169:
+		Id: 169
+		Images: monkz-tileset.png
+		Frames: 169
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@170:
+		Id: 170
+		Images: monkz-tileset.png
+		Frames: 170
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@171:
+		Id: 171
+		Images: monkz-tileset.png
+		Frames: 171
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@172:
+		Id: 172
+		Images: monkz-tileset.png
+		Frames: 172
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@173:
+		Id: 173
+		Images: monkz-tileset.png
+		Frames: 173
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@174:
+		Id: 174
+		Images: monkz-tileset.png
+		Frames: 174
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@175:
+		Id: 175
+		Images: monkz-tileset.png
+		Frames: 175
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@176:
+		Id: 176
+		Images: monkz-tileset.png
+		Frames: 176
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@177:
+		Id: 177
+		Images: monkz-tileset.png
+		Frames: 177
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@178:
+		Id: 178
+		Images: monkz-tileset.png
+		Frames: 178
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@179:
+		Id: 179
+		Images: monkz-tileset.png
+		Frames: 179
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@180:
+		Id: 180
+		Images: monkz-tileset.png
+		Frames: 180
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@181:
+		Id: 181
+		Images: monkz-tileset.png
+		Frames: 181
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@182:
+		Id: 182
+		Images: monkz-tileset.png
+		Frames: 182
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@183:
+		Id: 183
+		Images: monkz-tileset.png
+		Frames: 183
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@184:
+		Id: 184
+		Images: monkz-tileset.png
+		Frames: 184
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@185:
+		Id: 185
+		Images: monkz-tileset.png
+		Frames: 185
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@186:
+		Id: 186
+		Images: monkz-tileset.png
+		Frames: 186
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@187:
+		Id: 187
+		Images: monkz-tileset.png
+		Frames: 187
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@188:
+		Id: 188
+		Images: monkz-tileset.png
+		Frames: 188
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@189:
+		Id: 189
+		Images: monkz-tileset.png
+		Frames: 189
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@190:
+		Id: 190
+		Images: monkz-tileset.png
+		Frames: 190
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@191:
+		Id: 191
+		Images: monkz-tileset.png
+		Frames: 191
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@192:
+		Id: 192
+		Images: monkz-tileset.png
+		Frames: 192
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@193:
+		Id: 193
+		Images: monkz-tileset.png
+		Frames: 193
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@194:
+		Id: 194
+		Images: monkz-tileset.png
+		Frames: 194
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@195:
+		Id: 195
+		Images: monkz-tileset.png
+		Frames: 195
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@196:
+		Id: 196
+		Images: monkz-tileset.png
+		Frames: 196
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@197:
+		Id: 197
+		Images: monkz-tileset.png
+		Frames: 197
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@198:
+		Id: 198
+		Images: monkz-tileset.png
+		Frames: 198
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@199:
+		Id: 199
+		Images: monkz-tileset.png
+		Frames: 199
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@200:
+		Id: 200
+		Images: monkz-tileset.png
+		Frames: 200
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@201:
+		Id: 201
+		Images: monkz-tileset.png
+		Frames: 201
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@202:
+		Id: 202
+		Images: monkz-tileset.png
+		Frames: 202
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@203:
+		Id: 203
+		Images: monkz-tileset.png
+		Frames: 203
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@204:
+		Id: 204
+		Images: monkz-tileset.png
+		Frames: 204
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@205:
+		Id: 205
+		Images: monkz-tileset.png
+		Frames: 205
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@206:
+		Id: 206
+		Images: monkz-tileset.png
+		Frames: 206
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@207:
+		Id: 207
+		Images: monkz-tileset.png
+		Frames: 207
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@208:
+		Id: 208
+		Images: monkz-tileset.png
+		Frames: 208
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@209:
+		Id: 209
+		Images: monkz-tileset.png
+		Frames: 209
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@210:
+		Id: 210
+		Images: monkz-tileset.png
+		Frames: 210
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@211:
+		Id: 211
+		Images: monkz-tileset.png
+		Frames: 211
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@212:
+		Id: 212
+		Images: monkz-tileset.png
+		Frames: 212
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@213:
+		Id: 213
+		Images: monkz-tileset.png
+		Frames: 213
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@214:
+		Id: 214
+		Images: monkz-tileset.png
+		Frames: 214
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@215:
+		Id: 215
+		Images: monkz-tileset.png
+		Frames: 215
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@216:
+		Id: 216
+		Images: monkz-tileset.png
+		Frames: 216
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@217:
+		Id: 217
+		Images: monkz-tileset.png
+		Frames: 217
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@218:
+		Id: 218
+		Images: monkz-tileset.png
+		Frames: 218
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@219:
+		Id: 219
+		Images: monkz-tileset.png
+		Frames: 219
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@220:
+		Id: 220
+		Images: monkz-tileset.png
+		Frames: 220
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@221:
+		Id: 221
+		Images: monkz-tileset.png
+		Frames: 221
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@222:
+		Id: 222
+		Images: monkz-tileset.png
+		Frames: 222
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@223:
+		Id: 223
+		Images: monkz-tileset.png
+		Frames: 223
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@224:
+		Id: 224
+		Images: monkz-tileset.png
+		Frames: 224
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@225:
+		Id: 225
+		Images: monkz-tileset.png
+		Frames: 225
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@226:
+		Id: 226
+		Images: monkz-tileset.png
+		Frames: 226
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@227:
+		Id: 227
+		Images: monkz-tileset.png
+		Frames: 227
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@228:
+		Id: 228
+		Images: monkz-tileset.png
+		Frames: 228
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@229:
+		Id: 229
+		Images: monkz-tileset.png
+		Frames: 229
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@230:
+		Id: 230
+		Images: monkz-tileset.png
+		Frames: 230
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@231:
+		Id: 231
+		Images: monkz-tileset.png
+		Frames: 231
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@232:
+		Id: 232
+		Images: monkz-tileset.png
+		Frames: 232
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@233:
+		Id: 233
+		Images: monkz-tileset.png
+		Frames: 233
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@234:
+		Id: 234
+		Images: monkz-tileset.png
+		Frames: 234
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@235:
+		Id: 235
+		Images: monkz-tileset.png
+		Frames: 235
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@236:
+		Id: 236
+		Images: monkz-tileset.png
+		Frames: 236
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@237:
+		Id: 237
+		Images: monkz-tileset.png
+		Frames: 237
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@238:
+		Id: 238
+		Images: monkz-tileset.png
+		Frames: 238
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@239:
+		Id: 239
+		Images: monkz-tileset.png
+		Frames: 239
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@240:
+		Id: 240
+		Images: monkz-tileset.png
+		Frames: 240
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@241:
+		Id: 241
+		Images: monkz-tileset.png
+		Frames: 241
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@242:
+		Id: 242
+		Images: monkz-tileset.png
+		Frames: 242
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@243:
+		Id: 243
+		Images: monkz-tileset.png
+		Frames: 243
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@244:
+		Id: 244
+		Images: monkz-tileset.png
+		Frames: 244
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@245:
+		Id: 245
+		Images: monkz-tileset.png
+		Frames: 245
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@246:
+		Id: 246
+		Images: monkz-tileset.png
+		Frames: 246
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@247:
+		Id: 247
+		Images: monkz-tileset.png
+		Frames: 247
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@248:
+		Id: 248
+		Images: monkz-tileset.png
+		Frames: 248
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@249:
+		Id: 249
+		Images: monkz-tileset.png
+		Frames: 249
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@250:
+		Id: 250
+		Images: monkz-tileset.png
+		Frames: 250
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@251:
+		Id: 251
+		Images: monkz-tileset.png
+		Frames: 251
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@252:
+		Id: 252
+		Images: monkz-tileset.png
+		Frames: 252
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@253:
+		Id: 253
+		Images: monkz-tileset.png
+		Frames: 253
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@254:
+		Id: 254
+		Images: monkz-tileset.png
+		Frames: 254
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@255:
+		Id: 255
+		Images: monkz-tileset.png
+		Frames: 255
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@256:
+		Id: 256
+		Images: monkz-tileset.png
+		Frames: 256
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@257:
+		Id: 257
+		Images: monkz-tileset.png
+		Frames: 257
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@258:
+		Id: 258
+		Images: monkz-tileset.png
+		Frames: 258
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@259:
+		Id: 259
+		Images: monkz-tileset.png
+		Frames: 259
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@260:
+		Id: 260
+		Images: monkz-tileset.png
+		Frames: 260
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@261:
+		Id: 261
+		Images: monkz-tileset.png
+		Frames: 261
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@262:
+		Id: 262
+		Images: monkz-tileset.png
+		Frames: 262
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@263:
+		Id: 263
+		Images: monkz-tileset.png
+		Frames: 263
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@264:
+		Id: 264
+		Images: monkz-tileset.png
+		Frames: 264
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@265:
+		Id: 265
+		Images: monkz-tileset.png
+		Frames: 265
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@266:
+		Id: 266
+		Images: monkz-tileset.png
+		Frames: 266
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@267:
+		Id: 267
+		Images: monkz-tileset.png
+		Frames: 267
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@268:
+		Id: 268
+		Images: monkz-tileset.png
+		Frames: 268
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@269:
+		Id: 269
+		Images: monkz-tileset.png
+		Frames: 269
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@270:
+		Id: 270
+		Images: monkz-tileset.png
+		Frames: 270
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@271:
+		Id: 271
+		Images: monkz-tileset.png
+		Frames: 271
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@272:
+		Id: 272
+		Images: monkz-tileset.png
+		Frames: 272
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@273:
+		Id: 273
+		Images: monkz-tileset.png
+		Frames: 273
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@274:
+		Id: 274
+		Images: monkz-tileset.png
+		Frames: 274
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@275:
+		Id: 275
+		Images: monkz-tileset.png
+		Frames: 275
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@276:
+		Id: 276
+		Images: monkz-tileset.png
+		Frames: 276
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@277:
+		Id: 277
+		Images: monkz-tileset.png
+		Frames: 277
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@278:
+		Id: 278
+		Images: monkz-tileset.png
+		Frames: 278
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@279:
+		Id: 279
+		Images: monkz-tileset.png
+		Frames: 279
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@280:
+		Id: 280
+		Images: monkz-tileset.png
+		Frames: 280
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@281:
+		Id: 281
+		Images: monkz-tileset.png
+		Frames: 281
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@282:
+		Id: 282
+		Images: monkz-tileset.png
+		Frames: 282
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@283:
+		Id: 283
+		Images: monkz-tileset.png
+		Frames: 283
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@284:
+		Id: 284
+		Images: monkz-tileset.png
+		Frames: 284
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@285:
+		Id: 285
+		Images: monkz-tileset.png
+		Frames: 285
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@286:
+		Id: 286
+		Images: monkz-tileset.png
+		Frames: 286
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@287:
+		Id: 287
+		Images: monkz-tileset.png
+		Frames: 287
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@288:
+		Id: 288
+		Images: monkz-tileset.png
+		Frames: 288
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@289:
+		Id: 289
+		Images: monkz-tileset.png
+		Frames: 289
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@290:
+		Id: 290
+		Images: monkz-tileset.png
+		Frames: 290
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@291:
+		Id: 291
+		Images: monkz-tileset.png
+		Frames: 291
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@292:
+		Id: 292
+		Images: monkz-tileset.png
+		Frames: 292
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
+
+	Template@293:
+		Id: 293
+		Images: monkz-tileset.png
+		Frames: 293
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear
