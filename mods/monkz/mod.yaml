@@ -102,9 +102,6 @@ Sequences:
 	ra|sequences/decorations.yaml
 
 TileSets:
-	ra|tilesets/snow.yaml
-	ra|tilesets/interior.yaml
-	ra|tilesets/temperat.yaml
 	monkz|tilesets/monkztileset.yaml
 
 Cursors:
