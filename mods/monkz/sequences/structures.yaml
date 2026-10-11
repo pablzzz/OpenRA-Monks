@@ -1,0 +1,17 @@
+monastery:
+	Defaults:
+		Filename: monastery.png
+	idle:
+		Start: 0
+	scuffed-idle:
+		Start: 1
+	scratched-idle:
+		Start: 2
+	damaged-idle:
+		Start: 3
+	critical-idle:
+		Start: 4
+	rubble:
+		Start: 5
+	icon:
+		Filename: monastery.png

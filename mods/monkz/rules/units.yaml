@@ -1,0 +1,51 @@
+E1HARVESTER:
+	Inherits: E1
+	
+	Selectable:
+		Class: MONK
+	
+	Buildable:
+		Queue: Infantry
+		BuildAtProductionType: Monk
+		BuildDuration: 100
+		BuildPaletteOrder: 10
+		Prerequisites: ~monastery
+		Description: actor-monk.description
+
+	Tooltip:
+		Name: actor-monk.name
+		
+	RenderSprites:
+		Image: e1_harvester
+		PlayerPalette: player
+
+	AutoTargetPriority@DEFAULT:
+		ValidTargets: Infantry, Structure
+
+	-TakeCover:
+
+	Harvester:
+		Resources: Ore
+		EmptyCondition: empty-handed
+		SearchOnCreation: false
+		BaleUnloadDelay: 1
+		SearchFromProcRadius: 30
+		SearchFromHarvesterRadius: 11
+		FullyLoadedSpeed: 100
+
+	StoresResources:
+		Capacity: 10
+		Resources: Ore
+	
+	DockClientManager:
+	
+	WithInfantryBody:
+		RequiresCondition: empty-handed
+		StandSequences: stand
+		MoveSequence: run
+		DefaultAttackSequence: shoot
+
+	WithInfantryBody@CARRYING:
+		RequiresCondition: !empty-handed
+		StandSequences: carry-stand
+		MoveSequence: carry-run

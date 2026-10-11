@@ -165,6 +165,17 @@
 
 World:
 	Inherits: ^BaseWorld
+	
+	ColorPickerColorShift@RGBA
+		BasePalette: colorpicker
+		MinHue: 0.32
+		MaxHue: 0.34
+
+	PlayerColorShift@RGBA:
+		BasePalette: player
+		MinHue: 0.32
+		MaxHue: 0.34
+
 	ChatCommands:
 	DevCommands:
 	DebugVisualizationCommands:
@@ -231,6 +242,13 @@ World:
 		TechLevelDropdownDisplayOrder: 2
 		GameSpeedDropdownDisplayOrder: 1
 	CreateMapPlayers:
+
+	StartingUnits@monastery:
+		Class: monastery
+		ClassName: actor-monastery.description
+		Factions: monkz
+		BaseActor: monastery
+
 	StartingUnits@mcvonly:
 		Class: none
 		ClassName: options-starting-units.mcv-only
@@ -270,7 +288,12 @@ World:
 		OuterSupportRadius: 5
 	MapStartingLocations:
 		SeparateTeamSpawnsCheckboxDisplayOrder: 6
+	
 	SpawnStartingUnits:
+		StartingUnitsClass: monastery
+		DropdownLocked: true
+		DropdownVisible: false
+
 	PathFinder:
 	ValidateOrder:
 	DebugPauseState:
@@ -303,6 +326,17 @@ World:
 
 EditorWorld:
 	Inherits: ^BaseWorld
+
+	ColorPickerColorShift@RGBA
+		BasePalette: colorpicker
+		MinHue: 0.32
+		MaxHue: 0.34
+
+	PlayerColorShift@RGBA:
+		BasePalette: player
+		MinHue: 0.32
+		MaxHue: 0.34
+
 	EditorActorLayer:
 	EditorCursorLayer:
 	EditorResourceLayer:
