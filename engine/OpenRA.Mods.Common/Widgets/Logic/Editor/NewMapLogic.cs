@@ -29,19 +29,36 @@ namespace OpenRA.Mods.Common.Widgets.Logic
 
 			var tilesetDropDown = panel.Get<DropDownButtonWidget>("TILESET");
 			var tilesets = modData.DefaultTerrainInfo.Keys;
-			ScrollItemWidget SetupItem(string option, ScrollItemWidget template)
+
+			var selectedTilesetId = tilesets.First();
+
+			string TilesetDisplayName(string id)
+			{
+				if (modData.DefaultTerrainInfo[id] is DefaultTerrain terrain && !string.IsNullOrEmpty(terrain.Name))
+					return terrain.Name;
+				return id;
+			} 
+
+			ScrollItemWidget SetupItem(string id, ScrollItemWidget template)
 			{
 				var item = ScrollItemWidget.Setup(template,
-					() => tilesetDropDown.GetText() == option,
-					() => tilesetDropDown.GetText = () => option);
-				item.Get<LabelWidget>("LABEL").GetText = () => option;
+					() => selectedTilesetId == id,
+					() => selectedTilesetId = id);
+
+				item.Get<LabelWidget>("LABEL").GetText = () => TilesetDisplayName(id);
+				
 				return item;
 			}
 
-			var firstTileset = tilesets.First();
-			tilesetDropDown.GetText = () => firstTileset;
+			tilesetDropDown.GetText = () => TilesetDisplayName(selectedTilesetId);
+
 			tilesetDropDown.OnClick = () =>
-				tilesetDropDown.ShowDropDown("LABEL_DROPDOWN_TEMPLATE", 210, tilesets, SetupItem);
+				tilesetDropDown.ShowDropDown(
+					"LABEL_DROPDOWN_TEMPLATE",
+					210,
+					tilesets,
+					SetupItem
+				);
 
 			var widthTextField = panel.Get<TextFieldWidget>("WIDTH");
 			var heightTextField = panel.Get<TextFieldWidget>("HEIGHT");
@@ -57,7 +74,7 @@ namespace OpenRA.Mods.Common.Widgets.Logic
 				height = Math.Max(2, height);
 
 				var maxTerrainHeight = world.Map.Grid.MaximumTerrainHeight;
-				var tileset = modData.DefaultTerrainInfo[tilesetDropDown.GetText()];
+				var tileset = modData.DefaultTerrainInfo[selectedTilesetId];
 				var map = new Map(Game.ModData, tileset, width + 2, height + maxTerrainHeight + 2);
 
 				var tl = new PPos(1, 1 + maxTerrainHeight);
