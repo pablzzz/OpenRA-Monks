@@ -43,6 +43,7 @@ FileSystem: ContentInstallerFileSystem
 		ra|bits/desert
 		monkz|bits
 		monkz|bits/monkztilesetbits
+		monkz|bits/units
 	RequiredContentFiles:
 		content|expand/chrotnk1.aud
 		content|expand/fixit1.aud
@@ -91,6 +92,7 @@ Rules:
 	ra|rules/ships.yaml
 	ra|rules/fakes.yaml
 	monkz|rules/world.yaml
+	monkz|rules/units.yaml
 
 Sequences:
 	ra|sequences/ships.yaml
@@ -100,6 +102,7 @@ Sequences:
 	ra|sequences/aircraft.yaml
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
+	monkz|sequences/units.yaml
 
 TileSets:
 	monkz|tilesets/monkztileset.yaml
@@ -177,6 +180,7 @@ FluentMessages:
 	ra|fluent/chrome.ftl
 	ra|fluent/hotkeys.ftl
 	ra|fluent/rules.ftl
+	monkz|fluent/rules.ftl
 
 AllowUnusedFluentMessagesInExternalPackages: false
 

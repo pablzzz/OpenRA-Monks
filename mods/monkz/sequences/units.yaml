@@ -1,0 +1,73 @@
+e1_harvester:
+	Defaults:
+		Filename: e1_harvester.png
+	stand:
+		Start: 0
+	stand2:
+		Start: 0
+	run:
+		Start: 6
+		Length: 6
+		Tick: 100
+	carry-stand:
+		Start: 12
+	carry-run:
+		Start: 12
+		Length: 6
+		Tick: 100
+	die1:
+		Start: 18
+		Length: 6
+		Tick: 100
+	die2:
+		Start: 18
+		Length: 6
+		Tick: 100
+	die3:
+		Start: 18
+		Length: 6
+		Tick: 100
+	die4:
+		Start: 18
+		Length: 6
+		Tick: 100
+	die5:
+		Start: 18
+		Length: 6
+		Tick: 100
+	die6:
+		Start: 18
+		Length: 6
+		Tick: 100
+	die-crushed:
+		Start: 24
+	corpse1:
+		Start: 24
+	corpse2:
+		Start: 25
+	corpse3:
+		Start: 26
+	corpse4:
+		Start: 27
+	corpse5:
+		Start: 28
+	corpse6:
+		Start: 29
+	prone-run:
+		Start: 6
+		Length: 6
+		Tick: 100
+	liedown:
+		Start: 0
+	standup:
+		Start: 0
+	prone-shoot:
+		Start: 0
+	parachute:
+		Start: 0
+	idle1:
+		Start: 0
+	idle2:
+		Start: 0
+	icon:
+		Filename: e1_harvester.png
