@@ -44,6 +44,7 @@ FileSystem: ContentInstallerFileSystem
 		monkz|bits
 		monkz|bits/monkztilesetbits
 		monkz|bits/units
+		monkz|bits/structures
 	RequiredContentFiles:
 		content|expand/chrotnk1.aud
 		content|expand/fixit1.aud
@@ -79,7 +80,7 @@ Rules:
 	ra|rules/misc.yaml
 	ra|rules/ai.yaml
 	ra|rules/player.yaml
-	ra|rules/palettes.yaml
+	monkz|rules/palettes.yaml
 	ra|rules/world.yaml
 	ra|rules/defaults.yaml
 	ra|rules/vehicles.yaml
@@ -93,6 +94,7 @@ Rules:
 	ra|rules/fakes.yaml
 	monkz|rules/world.yaml
 	monkz|rules/units.yaml
+	monkz|rules/structures.yaml
 
 Sequences:
 	ra|sequences/ships.yaml
@@ -103,6 +105,7 @@ Sequences:
 	ra|sequences/misc.yaml
 	ra|sequences/decorations.yaml
 	monkz|sequences/units.yaml
+	monkz|sequences/structures.yaml
 
 TileSets:
 	monkz|tilesets/monkztileset.yaml

@@ -4,11 +4,23 @@ E1HARVESTER:
 	Selectable:
 		Class: MONK
 	
+	Buildable:
+		Queue: Infantry
+		BuildAtProductionType: Monk
+		BuildDuration: 100
+		BuildPaletteOrder: 10
+		Prerequisites: ~monastery
+		Description: actor-monk.description
+
 	Tooltip:
 		Name: actor-monk.name
 		
 	RenderSprites:
 		Image: e1_harvester
+		PlayerPalette: player
+
+	AutoTargetPriority@DEFAULT:
+		ValidTargets: Infantry, Structure
 
 	-TakeCover:
 
