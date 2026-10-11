@@ -41,6 +41,8 @@ FileSystem: ContentInstallerFileSystem
 		# Below are mod-provided (system) packages that need to be loaded after the content packages so they can override content assets.
 		ra|bits
 		ra|bits/desert
+		monkz|bits
+		monkz|bits/monkztilesetbits
 	RequiredContentFiles:
 		content|expand/chrotnk1.aud
 		content|expand/fixit1.aud
@@ -100,10 +102,7 @@ Sequences:
 	ra|sequences/decorations.yaml
 
 TileSets:
-	ra|tilesets/snow.yaml
-	ra|tilesets/interior.yaml
-	ra|tilesets/temperat.yaml
-	ra|tilesets/desert.yaml
+	monkz|tilesets/monkztileset.yaml
 
 Cursors:
 	ra|cursors.yaml
@@ -266,7 +265,7 @@ Missions:
 	ra|missions.yaml
 
 MapGrid:
-	TileSize: 24,24
+	TileSize: 11,17
 	Type: Rectangular
 
 DefaultOrderGenerator: UnitOrderGenerator
@@ -275,7 +274,7 @@ SupportsMapsFrom: ra
 
 SoundFormats: Aud, Wav
 
-SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS
+SpriteFormats: ShpD2, ShpTD, TmpRA, TmpTD, ShpTS, PngSheet
 
 VideoFormats: Vqa, Wsa
 
@@ -284,7 +283,7 @@ TerrainFormat: DefaultTerrain
 SpriteSequenceFormat: ClassicTilesetSpecificSpriteSequence
 
 AssetBrowser:
-	SpriteExtensions: .shp, .tmp, .tem, .des, .sno, .int
+	SpriteExtensions: .shp, .tmp, .tem, .des, .sno, .int, .png
 	AudioExtensions: .aud, .wav, .r00, .r01, .r02, .r03, .v00, .v01, .v02, .v03
 	VideoExtensions: .vqa, .wsa
 
