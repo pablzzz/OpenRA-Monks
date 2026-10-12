@@ -233,6 +233,7 @@ ServerTraits:
 ChromeMetrics:
 	common|metrics.yaml
 	ra|metrics.yaml
+	monkz|metrics.yaml
 
 Fonts:
 	Tiny:

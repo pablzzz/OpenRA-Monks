@@ -1,6 +1,10 @@
 MONASTERY:
 	Inherits: ^Building
 	
+	-RepairableBuilding:
+	-WithBuildingRepairDecoration:
+	-InstantlyRepairable:
+
 	Valued:
 		Cost: 1000
 	
@@ -45,6 +49,7 @@ MONASTERY:
 	Exit@1:
 		ExitCell: 2,2
 		ProductionTypes: Monk, Infantry
+		SpawnOffset: 0,1600,0
 
 	Production:
 		Produces: Infantry, Monk
@@ -59,6 +64,7 @@ MONASTERY:
 
 	SpawnActorOnDeath:
 		Actor: MONASTERY.RUBBLE
+		Offset: 2,0
 
 MONASTERY.RUBBLE:
 	Inherits: ^SpriteActor
