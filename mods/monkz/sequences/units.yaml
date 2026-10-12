@@ -2,19 +2,100 @@ e1_harvester:
 	Defaults:
 		Filename: e1_harvester.png
 	stand:
-		Start: 0
-	stand2:
-		Start: 0
+		Length: 1
+		Facings: 4
+		Combine:
+			North:
+				Filename: e1_harvester.png
+				Start: 0
+			West:
+				Filename: e1_harvester.png
+				Start: 0
+			South:
+				Filename: e1_harvester.png
+				Start: 0
+			East:
+				Filename: e1_harvester.png
+				Start: 0
+				FlipX: true
+	stand:
+		Length: 1
+		Facings: 4
+		Combine:
+			North:
+				Filename: e1_harvester.png
+				Start: 0
+			West:
+				Filename: e1_harvester.png
+				Start: 0
+			South:
+				Filename: e1_harvester.png
+				Start: 0
+			East:
+				Filename: e1_harvester.png
+				Start: 0
+				FlipX: true
 	run:
-		Start: 6
 		Length: 6
+		Facings: 4
 		Tick: 100
+		Combine:
+			North:
+				Filename: e1_harvester.png
+				Start: 6
+				Length: 6
+			West:
+				Filename: e1_harvester.png
+				Start: 6
+				Length: 6
+			South:
+				Filename: e1_harvester.png
+				Start: 6
+				Length: 6
+			East:
+				Filename: e1_harvester.png
+				Start: 6
+				Length: 6
+				FlipX: true
 	carry-stand:
-		Start: 12
+		Length: 1
+		Facings: 4
+		Combine:
+			North:
+				Filename: e1_harvester.png
+				Start: 12
+			West:
+				Filename: e1_harvester.png
+				Start: 12
+			South:
+				Filename: e1_harvester.png
+				Start: 12
+			East:
+				Filename: e1_harvester.png
+				Start: 12
+				FlipX: true
 	carry-run:
-		Start: 12
 		Length: 6
+		Facings: 4
 		Tick: 100
+		Combine:
+			North:
+				Filename: e1_harvester.png
+				Start: 12
+				Length: 6
+			West:
+				Filename: e1_harvester.png
+				Start: 12
+				Length: 6
+			South:
+				Filename: e1_harvester.png
+				Start: 12
+				Length: 6
+			East:
+				Filename: e1_harvester.png
+				Start: 12
+				Length: 6
+				FlipX: true
 	die1:
 		Start: 18
 		Length: 6
