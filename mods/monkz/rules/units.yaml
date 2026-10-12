@@ -3,7 +3,8 @@ E1HARVESTER:
 	
 	Selectable:
 		Class: MONK
-	
+		DecorationBounds: 1c512, 1c0
+
 	Buildable:
 		Queue: Infantry
 		BuildAtProductionType: Monk
