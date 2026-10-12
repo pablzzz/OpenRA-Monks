@@ -3,15 +3,21 @@ monastery:
 		Filename: monastery.png
 	idle:
 		Start: 0
+		Length: 1
 	scuffed-idle:
 		Start: 1
+		Length: 1
 	scratched-idle:
 		Start: 2
+		Length: 1
 	damaged-idle:
 		Start: 3
+		Length: 1
 	critical-idle:
 		Start: 4
+		Length: 1
 	rubble:
 		Start: 5
+		Length: 1
 	icon:
 		Filename: monastery.png
