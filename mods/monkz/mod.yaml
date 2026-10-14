@@ -111,7 +111,7 @@ TileSets:
 	monkz|tilesets/monkztileset.yaml
 
 Cursors:
-	ra|cursors.yaml
+	monkz|cursors.yaml
 
 Chrome:
 	ra|chrome.yaml
